@@ -1,0 +1,641 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgamb" at "2026-11-03T06:01:00.7957572Z"
+Built from '6000.4/staging' branch; Version is '6000.4.10f1 (feeafc12a938) revision 16706300'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 7879 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-03T06:01:00Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cgamb/Documents/DKIT projects/2dgamedevCA1/CA-kitty
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60049
+-licensingIpc
+LicenseClient-cgamb
+-force-d3d12
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/cgamb/Documents/DKIT projects/2dgamedevCA1/CA-kitty
+C:/Users/cgamb/Documents/DKIT projects/2dgamedevCA1/CA-kitty
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16892, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.5.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              73e3afe497704152bfa86825928b0098
+  Correlation Id:          5135ae6d7b6926552b6c933eb1c67bf6
+  External correlation Id: 8980921579025710649
+  Machine Id:              M1/bPFWLH9mvjySWqaaypH96hZA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cgamb" (connect: 0.00s, validation: 0.02s, handshake: 0.35s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgamb-notifications" at "2026-11-03T06:01:01.1638113Z"
+[Licensing::Module] Licensing Background thread has ended after 0.37s
+Player connection [22476]  Target information:
+
+Player connection [22476]  * "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 1643634722 [EditorId] 1643634722 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5FDI2IQ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22476] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22476] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 879.98 ms, found 5 plugins.
+Initialize engine version: 6000.4.10f1 (feeafc12a938)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cgamb/Documents/DKIT projects/2dgamedevCA1/CA-kitty/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:          Intel
+    VRAM:            3939 MB
+    App VRAM Budget: 3545 MB
+    Driver:          26.20.100.7926
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007812 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.265 seconds
+Domain Reload Profiling: 3517ms
+	BeginReloadAssembly (697ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (259ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (308ms)
+	LoadAllAssembliesAndSetupDomain (925ms)
+		LoadAssemblies (689ms)
+		AnalyzeDomain (868ms)
+			TypeCache.Refresh (864ms)
+				TypeCache.ScanAssembly (802ms)
+	FinalizeReload (1270ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (151ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (285ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5774122148999-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.49 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.40 ms, found 5 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.882 seconds
+Domain Reload Profiling: 18813ms
+	BeginReloadAssembly (719ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (135ms)
+	RebuildNativeTypeToScriptingClass (64ms)
+	initialDomainReloadingComplete (12388ms)
+	LoadAllAssembliesAndSetupDomain (3624ms)
+		LoadAssemblies (3172ms)
+		AnalyzeDomain (833ms)
+			TypeCache.Refresh (611ms)
+				TypeCache.ScanAssembly (566ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1883ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (378ms)
+			ProcessInitializeOnLoadAttributes (927ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (16ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.18 ms, found 5 plugins.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5667 unused Assets / (2.6 MB). Loaded Objects now: 6251.
+Memory consumption went from 113.4 MB to 110.8 MB.
+Total: 18.578900 ms (FindLiveObjects: 1.042300 ms CreateObjectMapping: 0.812200 ms MarkObjects: 11.349000 ms  DeleteObjects: 5.135200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 430564.954159 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  importAddress: Guid(3590b91b4603b465dbb4216d601bff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(3590b91b4603b465dbb4216d601bff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '46e701a8eb932a51de1e7d3db2aa73e6') in 0.1184967 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f136936896f937ca92e6bb93fd3a0c1 DependenciesID=f1baaed11d8b0156487cc3fac1c1f8ee StaticDependenciesID=2a3c3f2d78250098cb9b17a9f22fba3d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.162389 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  importAddress: Guid(3590b91b4603b465dbb4216d601bff33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(3590b91b4603b465dbb4216d601bff33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b9f462ff0eadb39bba8b0971c910e04') in 0.4789949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=533498c2bee0995c70852f063135c75c DependenciesID=e2b10480a449652523c415436672557b StaticDependenciesID=553bdcc9fa0751f70e6742a8102dcabc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TilePal/kitty sprites_15.asset
+  importAddress: Guid(1aac67efec0bddf4bbce0f36dec910c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_15.asset using Guid(1aac67efec0bddf4bbce0f36dec910c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '966a89673a9b588951fe89aea23a403d') in 0.0809551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad4b6e1aeb50c3fa8dacd6680dbf5e70 DependenciesID=b71aec6140787db9d24e38b0aa02f894 StaticDependenciesID=32c6c913e4f603c695837c7395a8a8c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TilePal/kitty sprites_22.asset
+  importAddress: Guid(be3cd20d3e2233c42970455e0dd6b439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_22.asset using Guid(be3cd20d3e2233c42970455e0dd6b439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad78d212a77dc427a287ceaf5f007736') in 0.0239898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39c3eac97d140feb351436d0017553b7 DependenciesID=5ed1bf67a8c76f5fe290e45237aac6fd StaticDependenciesID=9fff89d3fdf84874a16464a15d3150df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/animations/IdleR.anim
+  importAddress: Guid(618aff3753c7a654bac78158f835b6a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/IdleR.anim using Guid(618aff3753c7a654bac78158f835b6a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '399f7e8cfe851c2bcb7be6ab4c70e5eb') in 0.0567873 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d19256ebe064536a3d68aa969171511 DependenciesID=60193eaac81ab2f94881c8117d8f8d9e StaticDependenciesID=00215341e07bc3c545c68ccc8e383698 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TilePal/kitty sprites_4.asset
+  importAddress: Guid(3ddaa1cbed6ce05439a78570050381a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_4.asset using Guid(3ddaa1cbed6ce05439a78570050381a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a72684efd521b642211c182623e8a085') in 0.0362775 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2927fce6d4710ab58ef08395276fa22c DependenciesID=a708d4a822d57bac5a17b790a3fc5448 StaticDependenciesID=99e383b0cbd213d39ce50763e60c2a79 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TilePal/kitty sprites_24.asset
+  importAddress: Guid(08eb0a6104a59f64ba6d0161e44a0d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_24.asset using Guid(08eb0a6104a59f64ba6d0161e44a0d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c353a49458e5f1f2370d73fb6e6d53fc') in 0.0289253 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adc22f94c6e75cb3ffdc6cc098558f2e DependenciesID=562b75a42f6338320cf8ea25f336082a StaticDependenciesID=a23eeb9db7c25f3ad1bd3e9bf75be984 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/animations/WalkD.anim
+  importAddress: Guid(f54f6a7abeaee5b48a534f61199d01ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/WalkD.anim using Guid(f54f6a7abeaee5b48a534f61199d01ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b320a52c3875c5cd8fa3ce7af07c1ce2') in 0.0278545 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea975ab186c0ac688575b4b2c33a2feb DependenciesID=87475a0211625c50f4d1c20849a0a1b7 StaticDependenciesID=07eb01775f9ef64f32a5373174faeb30 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/TilePal/ColidePal.prefab
+  importAddress: Guid(87e174f36045bdc448d5ff8c550f98b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/ColidePal.prefab using Guid(87e174f36045bdc448d5ff8c550f98b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2b38a163cc3eb268e1b263be275db4da') in 0.0566306 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a17f4086cad2d3cfffde65246a8ecb6 DependenciesID=79a332472c0fe42b8726ae81851a3fb2 StaticDependenciesID=ca3a0e1c9070ec577368b07f0991d62c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/animations/WalkU.anim
+  importAddress: Guid(ee1ce2b96579e544684a29c57c2d74db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/WalkU.anim using Guid(ee1ce2b96579e544684a29c57c2d74db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '38f51a265e7e27931377071bb1102855') in 0.0248298 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06f2cf7f64491ad0d46b000d7aa01963 DependenciesID=c6c1519f26f291042271ce865bc704ef StaticDependenciesID=0e4d5c23cc32531931e5e298445f0751 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  importAddress: Guid(7935748f4099ffa41a90f9823021db44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(7935748f4099ffa41a90f9823021db44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3cf9b27b056032c80c03a645151d20d0') in 0.0222467 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=760b29ed9ad0295793fadc64bb14ff0e DependenciesID=2365a4df0a8cd842d3e7df422bb7ead1 StaticDependenciesID=08c1feb4fc215f523f096c95b2be26b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprites/kitty sprites.png
+  importAddress: Guid(903dd87dce92ae7438d87b701cf5232c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/kitty sprites.png using Guid(903dd87dce92ae7438d87b701cf5232c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da1b4e00703ed3f75cf4262d94c8a743') in 0.1605833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dd7bd3766b7457bc6c92aef515826da DependenciesID=df9b9f17a3e9238427ebcd403636093d StaticDependenciesID=b4d27b2fca97bb56542c582ce71465d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TilePal/kitty sprites_11.asset
+  importAddress: Guid(2011366c2aba14f41b966177107f5caa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_11.asset using Guid(2011366c2aba14f41b966177107f5caa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec64e3c7dfe66ca50b9b368d9911a03b') in 0.0278125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3e2c22b8421dd446815434f96949716 DependenciesID=dcce157a6d2fbb2f9b7b389676452d4d StaticDependenciesID=61fc75ab310ff3eb5f7413e8e7847884 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TilePal/kitty sprites_3.asset
+  importAddress: Guid(9377602e7dfa12343a44497f7498561a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_3.asset using Guid(9377602e7dfa12343a44497f7498561a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '737f8769268c4e5aefafcf0cd74ab21a') in 0.0226506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76975c0abe1729fcd048d9feee46f281 DependenciesID=4e2afb4b7bcba7b05f130a7108f07a7a StaticDependenciesID=86c45997d3528619aa2ed7e1b6643f10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e91ee2d0592795b410160c4034f53a3') in 0.0277282 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87db801b3caa736df4d959b5b71e2426 DependenciesID=6d4eba84f109da693acb15a051a6e805 StaticDependenciesID=7936d5848ca82055ef36cc096d4c0cfc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TilePal/kitty sprites_18.asset
+  importAddress: Guid(2b2ff1a7bf214b140a41c844282241ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_18.asset using Guid(2b2ff1a7bf214b140a41c844282241ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d20bc0b5c9d6306b370619543ccc910') in 0.0253721 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bda145767a19cbdffe2d2067189da27 DependenciesID=ee0f00932adc37973238d60041b4017e StaticDependenciesID=c2e6f6c46ca2a52401f13385912b33b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TilePal/kitty sprites_23.asset
+  importAddress: Guid(135cfb4f48ed5b446916a169a3b72a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_23.asset using Guid(135cfb4f48ed5b446916a169a3b72a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2a10017914cceb583d03fc2e4c56ddc') in 0.0216892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cab41264505f7e1ab36925743d1a9aab DependenciesID=b1b110305ed2ffc10ccba1934b9bc929 StaticDependenciesID=b5d3e3fc906b496f7aed106834d87065 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TilePal/kitty sprites_14.asset
+  importAddress: Guid(f4647ef78c744004887cbeaaa06686d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_14.asset using Guid(f4647ef78c744004887cbeaaa06686d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11df44c4d900aed61b737b10aaf5d3ca') in 0.0259703 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ff1a0d551daad77bbbabf474203d461 DependenciesID=ce8f57d1eefb9b891d4bbdfc7d41428c StaticDependenciesID=3ec6d6c828ff32a0bbe2070e545056d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TilePal/kitty sprites_8.asset
+  importAddress: Guid(4d8ae565b19aae140ab1361938d1b6d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_8.asset using Guid(4d8ae565b19aae140ab1361938d1b6d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f9408e54048753391cfc04d0d0ae5b4') in 0.0232596 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9837ae1af6075b3b0b215aca46b9f3bd DependenciesID=463c0da694b86599e2f2cd0fd83350e2 StaticDependenciesID=ac78c34ea1cbba84f514062412d928f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/animations/WalkR.anim
+  importAddress: Guid(8a5beaa8ad097d14bbfc680716867f64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/WalkR.anim using Guid(8a5beaa8ad097d14bbfc680716867f64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13e2ec7fe235ca71a468b012a5ffadf4') in 0.0265228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cccec577dd28c0ff20ff5b57f7753ac5 DependenciesID=8ebea277bd5bcae97f4a2913c90b77cd StaticDependenciesID=2ae9152c3022638b176a39f987611f88 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TilePal/kitty sprites_9.asset
+  importAddress: Guid(a864b5d6ec1bca94582c7b077c3d715c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_9.asset using Guid(a864b5d6ec1bca94582c7b077c3d715c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca3e1e7f987d44694da285a2ad2c641e') in 0.0225497 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d06cda837575c5fde8c232a9e35e820d DependenciesID=ee3d0dce760193217c245a25629e3c47 StaticDependenciesID=fa033bc508b48ee2c80dc2fbcdfa467b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/animations/IdleD.anim
+  importAddress: Guid(a73dbbfab7cbbca489bc95a0d44fae13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/IdleD.anim using Guid(a73dbbfab7cbbca489bc95a0d44fae13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e66bfe954259a43f7cecc17b45887d95') in 0.0292062 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38b9f488c1fbe6849b49f9f551a02595 DependenciesID=a2577fd19aaae370f1f4a3d0e98b8167 StaticDependenciesID=2d0a4a98092c602a4d6065ce3d165b11 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TilePal/kitty sprites_12.asset
+  importAddress: Guid(32801ad9c1069074c92d87692d8548b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_12.asset using Guid(32801ad9c1069074c92d87692d8548b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd25c5962931828f9f28b94d9d54e243') in 0.0241925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1ad5e4d33aa480d7fce959e1820f7df DependenciesID=b29ba1fd2c2336461bedae83b3b21add StaticDependenciesID=c2d61c339857c1c521b8e210911ebd4a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/animations/Player.controller
+  importAddress: Guid(6204f1f742981cb449fab2ead57f2dd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/Player.controller using Guid(6204f1f742981cb449fab2ead57f2dd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5dae2ff5d2aaacdcff88be02c50f40ed') in 0.0362332 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=060ac3a390514324edb0177c7b0f6e66 DependenciesID=95674762ab0ebbd240fc416a382f01e8 StaticDependenciesID=21ec51ba26200776a929ebb05374be9e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TilePal/kitty sprites_17.asset
+  importAddress: Guid(e7b5e58e6db1b63488667574d8cb174f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_17.asset using Guid(e7b5e58e6db1b63488667574d8cb174f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '69424f47d2c52e3730acb96a65451e94') in 0.0265351 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe36b4d1099ca678b2876bb6eac1ec9d DependenciesID=afcad6f14831129987e14a852aa912d5 StaticDependenciesID=85049de92063501c03a7f383b6e95439 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TilePal/kitty sprites_2.asset
+  importAddress: Guid(e6c09352558d27749a5a6538a53f46e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_2.asset using Guid(e6c09352558d27749a5a6538a53f46e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8709b9dd88bac2d707ea3b3fbcedbd56') in 0.0218113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b89ea9a37693feb9483185c6a408075 DependenciesID=3ccd0c80bcb81dda76c11e34ca7050bf StaticDependenciesID=01957bfb2de2f62340438af9e56070d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TilePal/kitty sprites_13.asset
+  importAddress: Guid(dd2642884785b3840963317d305b1576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_13.asset using Guid(dd2642884785b3840963317d305b1576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16db1f0e98228352d66b309b2344db9f') in 0.0261454 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19a0c3a01eafef048253c9e07c00676f DependenciesID=386cefc529a7fe522f79d0c68d3e90f8 StaticDependenciesID=5827b43f5e228f5ad051bdde203830ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TilePal/kitty sprites_5.asset
+  importAddress: Guid(f86f654cca06487418a28def39c89d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_5.asset using Guid(f86f654cca06487418a28def39c89d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19c2d0f84676f7c7f3e3da48b8faafce') in 0.0248518 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45e2472a6cb817508535fc11c893e5d0 DependenciesID=73f0650a3a6231405df91811b0ef27f1 StaticDependenciesID=69d3b0db2a3db0b1a544a0ec23b9c5c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/prefabs/PushBox.prefab
+  importAddress: Guid(86b71e67b6d22984bbd788f1cf4172af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/prefabs/PushBox.prefab using Guid(86b71e67b6d22984bbd788f1cf4172af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bbd34fd1ec38f1f0f9dcaca9dc452890') in 0.0647403 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5eba1b0054e36d615ea0d9729e091316 DependenciesID=5781d8714de36ef6a79a81e57cb7c269 StaticDependenciesID=3c5792e686557f5ab7ad2105c6cd4270 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/animations/IdleU.anim
+  importAddress: Guid(72ddd36bc3e77fc408988f9b69fc4f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/IdleU.anim using Guid(72ddd36bc3e77fc408988f9b69fc4f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '98df3299bca111978036a00ebbef3885') in 0.0230987 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43e0dd40902effe1617dd1615aebe4f6 DependenciesID=c61edf6b40e974c001d9a16fab1cecd3 StaticDependenciesID=439876d766a89fdb7b8f69d42e12575e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/TilePal/kitty sprites_16.asset
+  importAddress: Guid(cb1a87d01880c924d8993b72126ba42a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_16.asset using Guid(cb1a87d01880c924d8993b72126ba42a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f29e364b8180616ac04eccb3d4d6c46') in 0.0253508 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92a61f735419f9bab45ef27bdbf67b25 DependenciesID=96e0adaa54183df17a2ad1055a71319d StaticDependenciesID=91731788cfd9f6bea1735b11ca05bc35 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TilePal/kitty sprites_10.asset
+  importAddress: Guid(c2830589ae4783c4890c8c5d27baa4f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_10.asset using Guid(c2830589ae4783c4890c8c5d27baa4f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ddcfc0cba4e6ebd424f8a7cd2d53c5f') in 0.0245008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5758015b2772b67f342fe0eb2b2bd533 DependenciesID=2160d96cd16b96a36f4cd2df4f054b0a StaticDependenciesID=fff37a91fbb121dcdd110ac0cd20ae9b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/animations/WalkL.anim
+  importAddress: Guid(15dcd783f2a79394a80c0b302904e62d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/WalkL.anim using Guid(15dcd783f2a79394a80c0b302904e62d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47121638771c95999ae5d18fb22dce0a') in 0.0240546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=244647be9c3585aa95a7c73ef0139f74 DependenciesID=8c35c432941c9ed38274d2bbd3e4d7ea StaticDependenciesID=b76c78300b85bdecfc30e3d3d5a9d57c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TilePal/normPal.prefab
+  importAddress: Guid(bae736f8653fb7c4fab0a40b69c4e3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/normPal.prefab using Guid(bae736f8653fb7c4fab0a40b69c4e3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55e57c1c76e26b319cf3122c2127162b') in 0.0263746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1eea3b5325af88b81038e9fc7244bb47 DependenciesID=d7b579707c4052ae6de6ac0bf6b6ba89 StaticDependenciesID=9f92ab9bf4a80b9b7135faeb657a9c9a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/animations/IdleL.anim
+  importAddress: Guid(6b7df5f994bf5384390f34cb6eadb1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/IdleL.anim using Guid(6b7df5f994bf5384390f34cb6eadb1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1c59b719d7e68c0c5c925d24089fb49a') in 0.0187726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=584f9e49feefe46116de0cd0165a0a99 DependenciesID=c2cbde256a0d760d6bf0292313670d23 StaticDependenciesID=208d16afa1c421e5cda9d3da15d3ca46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/TilePal/kitty sprites_19.asset
+  importAddress: Guid(cf690a27770768442967efb7ef524fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_19.asset using Guid(cf690a27770768442967efb7ef524fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '967bc23e0e0d922af5f98bb01cd9f73b') in 0.0178265 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83d3390f022a2a379930c4fbb3103f4b DependenciesID=6c70094c509ba30e288ab538b247ca19 StaticDependenciesID=7e232b99432a9bd4662b141ea96833b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.789723 seconds.
+  path: Assets/Sprites
+  importAddress: Guid(504da483f70756341a5d045326d8e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(504da483f70756341a5d045326d8e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8add1beb80b7d9af84feebbe9485b9d0') in 0.0008236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c46b124abadee559c7475d434871563 DependenciesID=c4a23d9e46583c2d83b5d8ac4d488293 StaticDependenciesID=c95a29db7db7cf21eb40c60e8bf0a0d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.205402 seconds.
+  path: Assets/Scripts
+  importAddress: Guid(ddd8d2c1803bc8843877274ca6b3769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ddd8d2c1803bc8843877274ca6b3769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5f50bad074f3e72f9d6ad315a27f876b') in 0.0008004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c19af2c5cb7146962db9e68c5b6c5c53 DependenciesID=dd5edc6ff07ed281f2f0fc3e124c30d8 StaticDependenciesID=918f6c1bf712ca5085453a0dc2f53a66 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.444445 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '70be22a623134b95ac33e8a2c23bb2b9') in 0.0008545 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed762298b59bb6514954732a4a6a55a4 DependenciesID=214d5639da7076c9255c1d08abf78fdb StaticDependenciesID=73ff3d5d2e032438686a6a03a9414b7d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.76 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.983 seconds
+Domain Reload Profiling: 3776ms
+	BeginReloadAssembly (475ms)
+		DisableScriptedObjects (38ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (1062ms)
+		LoadAssemblies (819ms)
+		AnalyzeDomain (450ms)
+			TypeCache.Refresh (22ms)
+			BuildScriptInfoCaches (390ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1984ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (416ms)
+			ProcessInitializeOnLoadAttributes (899ms)
+			ProcessInitializeOnLoadMethodAttributes (187ms)
+			AfterProcessingInitializeOnLoad (17ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 11.92 ms, found 5 plugins.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5665 unused Assets / (2.2 MB). Loaded Objects now: 6258.
+Memory consumption went from 115.3 MB to 113.1 MB.
+Total: 23.404200 ms (FindLiveObjects: 1.488900 ms CreateObjectMapping: 1.690800 ms MarkObjects: 13.306500 ms  DeleteObjects: 6.644700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3366.914120 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  importAddress: Guid(7935748f4099ffa41a90f9823021db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(7935748f4099ffa41a90f9823021db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7867be455c0a2ab823599109e0dce271') in 0.5503415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a82586e68b09647e811316544f726eaa DependenciesID=7b89d16d1d6af947848c8cd996e81eb3 StaticDependenciesID=dfa5a0062cc97f2cad37460180cf04ce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
