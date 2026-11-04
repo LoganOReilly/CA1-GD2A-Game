@@ -4,7 +4,6 @@ using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class PlayerControl : MonoBehaviour
 {
-    private int direction = 1;
     public int speed = 5;
     private Vector2 move;
     private Rigidbody2D rb;
@@ -23,5 +22,13 @@ public class PlayerControl : MonoBehaviour
         rb.transform.position = position;
         animator.SetFloat("DirX", move.x);
         animator.SetFloat("DirY", move.y);
+        if (move.x != 0 || move.y != 0)
+        {
+            animator.SetBool("Move", true);
+        }
+        else
+        {
+            animator.SetBool("Move", false);
+        }
     }
 }
