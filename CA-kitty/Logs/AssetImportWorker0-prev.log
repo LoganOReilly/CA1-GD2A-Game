@@ -1,11 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgamb" at "2026-11-03T06:01:00.7957572Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgamb" at "2026-11-03T19:07:18.3430188Z"
 Built from '6000.4/staging' branch; Version is '6000.4.10f1 (feeafc12a938) revision 16706300'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 7879 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-03T06:01:00Z
+Date: 2026-11-03T19:07:18Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16892, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.5.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e6ff484c1e5b4bef8880ce8792f60b3a
+  Correlation Id:          5135ae6d7b6926552b6c933eb1c67bf6
+  External correlation Id: 3048456729691325071
+  Machine Id:              M1/bPFWLH9mvjySWqaaypH96hZA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cgamb" (connect: 0.00s, validation: 0.01s, handshake: 0.25s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgamb-notifications" at "2026-11-03T19:07:18.6075685Z"
+[Licensing::Module] Licensing Background thread has ended after 0.27s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.10f1\Editor\Unity.exe
@@ -19,7 +30,7 @@ C:/Users/cgamb/Documents/DKIT projects/2dgamedevCA1/CA-kitty
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60049
+62436
 -licensingIpc
 LicenseClient-cgamb
 -force-d3d12
@@ -68,23 +79,12 @@ C:/Users/cgamb/Documents/DKIT projects/2dgamedevCA1/CA-kitty
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16892, path: "C:/Program Files/WindowsApps/UnityTechnologies.UnityHub_3.22.5.65535_x64__2vrhnee42bhxm/app/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              73e3afe497704152bfa86825928b0098
-  Correlation Id:          5135ae6d7b6926552b6c933eb1c67bf6
-  External correlation Id: 8980921579025710649
-  Machine Id:              M1/bPFWLH9mvjySWqaaypH96hZA=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cgamb" (connect: 0.00s, validation: 0.02s, handshake: 0.35s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cgamb-notifications" at "2026-11-03T06:01:01.1638113Z"
-[Licensing::Module] Licensing Background thread has ended after 0.37s
-Player connection [22476]  Target information:
+Player connection [24080]  Target information:
 
-Player connection [22476]  * "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 1643634722 [EditorId] 1643634722 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5FDI2IQ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24080]  * "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2584637636 [EditorId] 2584637636 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5FDI2IQ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22476] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22476] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24080] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -96,7 +96,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 879.98 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 542.34 ms, found 5 plugins.
 Initialize engine version: 6000.4.10f1 (feeafc12a938)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/cgamb/Documents/DKIT projects/2dgamedevCA1/CA-kitty/Assets
@@ -116,12 +116,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007812 seconds.
+Registered in 0.013207 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -129,24 +129,25 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.265 seconds
-Domain Reload Profiling: 3517ms
-	BeginReloadAssembly (697ms)
-		CreateAndSetChildDomain (8ms)
-	RebuildCommonClasses (259ms)
-	RebuildNativeTypeToScriptingClass (58ms)
-	initialDomainReloadingComplete (308ms)
-	LoadAllAssembliesAndSetupDomain (925ms)
-		LoadAssemblies (689ms)
-		AnalyzeDomain (868ms)
-			TypeCache.Refresh (864ms)
-				TypeCache.ScanAssembly (802ms)
-	FinalizeReload (1270ms)
+- Finished resetting the current domain, in  1.459 seconds
+Domain Reload Profiling: 4170ms
+	BeginReloadAssembly (1013ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (145ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (354ms)
+	LoadAllAssembliesAndSetupDomain (1154ms)
+		LoadAssemblies (969ms)
+		AnalyzeDomain (1101ms)
+			TypeCache.Refresh (1001ms)
+				TypeCache.ScanAssembly (889ms)
+			ResolveRequiredComponents (52ms)
+	FinalizeReload (1465ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (151ms)
-			BeforeProcessingInitializeOnLoad (267ms)
-			ProcessInitializeOnLoadAttributes (331ms)
-			ProcessInitializeOnLoadMethodAttributes (285ms)
+			InitializePlatformSupportModulesInManaged (132ms)
+			BeforeProcessingInitializeOnLoad (290ms)
+			ProcessInitializeOnLoadAttributes (407ms)
+			ProcessInitializeOnLoadMethodAttributes (385ms)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 ========================================================================
 Worker process is ready to serve import requests
@@ -192,7 +193,7 @@ Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tes
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 12.49 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 21.79 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -204,438 +205,509 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 7.40 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 271.23 ms, found 5 plugins.
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.882 seconds
-Domain Reload Profiling: 18813ms
-	BeginReloadAssembly (719ms)
-		DisableScriptedObjects (24ms)
-		CreateAndSetChildDomain (98ms)
-	RebuildCommonClasses (135ms)
-	RebuildNativeTypeToScriptingClass (64ms)
-	initialDomainReloadingComplete (12388ms)
-	LoadAllAssembliesAndSetupDomain (3624ms)
-		LoadAssemblies (3172ms)
-		AnalyzeDomain (833ms)
-			TypeCache.Refresh (611ms)
-				TypeCache.ScanAssembly (566ms)
-			BuildScriptInfoCaches (198ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1883ms)
+- Finished resetting the current domain, in  4.809 seconds
+Domain Reload Profiling: 8467ms
+	BeginReloadAssembly (746ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (394ms)
+	LoadAllAssembliesAndSetupDomain (2356ms)
+		LoadAssemblies (1675ms)
+		AnalyzeDomain (1083ms)
+			TypeCache.Refresh (860ms)
+				TypeCache.ScanAssembly (704ms)
+			BuildScriptInfoCaches (176ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (4812ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (378ms)
-			ProcessInitializeOnLoadAttributes (927ms)
-			ProcessInitializeOnLoadMethodAttributes (182ms)
-			AfterProcessingInitializeOnLoad (16ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 6.18 ms, found 5 plugins.
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (1146ms)
+			ProcessInitializeOnLoadAttributes (2925ms)
+			ProcessInitializeOnLoadMethodAttributes (228ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 9.02 ms, found 5 plugins.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5667 unused Assets / (2.6 MB). Loaded Objects now: 6251.
-Memory consumption went from 113.4 MB to 110.8 MB.
-Total: 18.578900 ms (FindLiveObjects: 1.042300 ms CreateObjectMapping: 0.812200 ms MarkObjects: 11.349000 ms  DeleteObjects: 5.135200 ms)
+Unloading 5667 unused Assets / (1.9 MB). Loaded Objects now: 6251.
+Memory consumption went from 113.6 MB to 111.7 MB.
+Total: 16.958100 ms (FindLiveObjects: 2.355400 ms CreateObjectMapping: 0.969600 ms MarkObjects: 9.863900 ms  DeleteObjects: 3.763900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 430564.954159 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  importAddress: Guid(3590b91b4603b465dbb4216d601bff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(3590b91b4603b465dbb4216d601bff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '46e701a8eb932a51de1e7d3db2aa73e6') in 0.1184967 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f136936896f937ca92e6bb93fd3a0c1 DependenciesID=f1baaed11d8b0156487cc3fac1c1f8ee StaticDependenciesID=2a3c3f2d78250098cb9b17a9f22fba3d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.162389 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  importAddress: Guid(3590b91b4603b465dbb4216d601bff33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(3590b91b4603b465dbb4216d601bff33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b9f462ff0eadb39bba8b0971c910e04') in 0.4789949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=533498c2bee0995c70852f063135c75c DependenciesID=e2b10480a449652523c415436672557b StaticDependenciesID=553bdcc9fa0751f70e6742a8102dcabc 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/TilePal/kitty sprites_15.asset
-  importAddress: Guid(1aac67efec0bddf4bbce0f36dec910c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_15.asset using Guid(1aac67efec0bddf4bbce0f36dec910c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '966a89673a9b588951fe89aea23a403d') in 0.0809551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad4b6e1aeb50c3fa8dacd6680dbf5e70 DependenciesID=b71aec6140787db9d24e38b0aa02f894 StaticDependenciesID=32c6c913e4f603c695837c7395a8a8c8 
+  Time since last request: 477733.582609 seconds.
+  path: Assets/TilePal/tilesetcounter_11.asset
+  importAddress: Guid(ca33817485454ac48a3ed9d42072e3df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_11.asset using Guid(ca33817485454ac48a3ed9d42072e3df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '615fa42ad5831c089dc114bba82fd63a') in 0.3659287 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ac078e5a442e56d0e911b72a62ba994 DependenciesID=3cd42c3f82cac49b8e204833e1a9a946 StaticDependenciesID=f15fdc22be78f68f94915203930c8c86 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
+  Time since last request: 0.000084 seconds.
+  path: Assets/animations/IdleR.anim
+  importAddress: Guid(618aff3753c7a654bac78158f835b6a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/IdleR.anim using Guid(618aff3753c7a654bac78158f835b6a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a68c0b7ff6c2a0dc63a8414dad238cc') in 0.0566559 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea0c0dbccb31472f48dcc4e7f758dce0 DependenciesID=60193eaac81ab2f94881c8117d8f8d9e StaticDependenciesID=00215341e07bc3c545c68ccc8e383698 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/TilePal/2tilesetcounter_4.asset
+  importAddress: Guid(5d9fe1783026f2344a3c7c762cc6dfdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_4.asset using Guid(5d9fe1783026f2344a3c7c762cc6dfdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f33fca53081e39a764b016c77550de2e') in 0.0361245 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07e3ed6544d8ec059499bbbdd2c47809 DependenciesID=4d29a493b7330ef220d515c0e2ac80e3 StaticDependenciesID=e03be2a1191aaeb285078ffb2b724776 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/TilePal/kitty sprites_4.asset
+  importAddress: Guid(3ddaa1cbed6ce05439a78570050381a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_4.asset using Guid(3ddaa1cbed6ce05439a78570050381a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd7c5ffb88a577ff5f7f4b638c8a414ed') in 0.0395727 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0619de10366eb5f7e045b3e16aa85972 DependenciesID=a708d4a822d57bac5a17b790a3fc5448 StaticDependenciesID=99e383b0cbd213d39ce50763e60c2a79 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TilePal/kitty sprites_24.asset
+  importAddress: Guid(08eb0a6104a59f64ba6d0161e44a0d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_24.asset using Guid(08eb0a6104a59f64ba6d0161e44a0d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3303c530efa8fdf9247a15a649a66232') in 0.0362267 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e9d31681e2109a1ceb0fbdc3cf8bcf6 DependenciesID=562b75a42f6338320cf8ea25f336082a StaticDependenciesID=a23eeb9db7c25f3ad1bd3e9bf75be984 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TilePal/ColidePal.prefab
+  importAddress: Guid(87e174f36045bdc448d5ff8c550f98b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/ColidePal.prefab using Guid(87e174f36045bdc448d5ff8c550f98b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '840fc27e8319ee9d480ee029edd870f6') in 0.0865739 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d89dd88aec7a4dd8e3573d1a111dfb74 DependenciesID=700720debacf029b2091786f2ac1a9fb StaticDependenciesID=cc1f91096af1b06fbec27aeed6a4be3b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/animations/WalkU.anim
+  importAddress: Guid(ee1ce2b96579e544684a29c57c2d74db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/WalkU.anim using Guid(ee1ce2b96579e544684a29c57c2d74db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0449675a9d798e5b89371ef6df75f4df') in 0.0349825 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=069f4df1a9dfc4195b102f7415ef6ce8 DependenciesID=c6c1519f26f291042271ce865bc704ef StaticDependenciesID=0e4d5c23cc32531931e5e298445f0751 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  importAddress: Guid(7935748f4099ffa41a90f9823021db44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(7935748f4099ffa41a90f9823021db44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b87a5bfafb8e8f3007e6630b72ce53b1') in 0.0316374 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0683447ff782bf631ec73d1b3b3db038 DependenciesID=2365a4df0a8cd842d3e7df422bb7ead1 StaticDependenciesID=08c1feb4fc215f523f096c95b2be26b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TilePal/2tilesetcounter_10.asset
+  importAddress: Guid(098717901646af043af2f0dbe0c15e98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_10.asset using Guid(098717901646af043af2f0dbe0c15e98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d2a5b1f1403709a1c731c4af927451b') in 0.0365838 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=832305fabaae3aaa427eb0131ac25221 DependenciesID=d9c9adfc1983020c1b9c72ca2a3398f0 StaticDependenciesID=30bca5ae22abccc9051f5043f15ed2c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/kitty sprites.png
+  importAddress: Guid(903dd87dce92ae7438d87b701cf5232c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/kitty sprites.png using Guid(903dd87dce92ae7438d87b701cf5232c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1453ae61bfe195e35bbe0ad67387c549') in 0.2248071 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27a60805003ac770a1ff78cca3fe826b DependenciesID=df9b9f17a3e9238427ebcd403636093d StaticDependenciesID=b4d27b2fca97bb56542c582ce71465d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TilePal/tilesetcounter_2.asset
+  importAddress: Guid(6c96190716162f64ab9e784c801a2980) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_2.asset using Guid(6c96190716162f64ab9e784c801a2980) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6321fb7926ccb066ee5539febe66cbd4') in 0.0296244 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=49a99725ddd2718682f4efea4fcc5522 DependenciesID=bcc97b071428fc722948d7b6695ac8a7 StaticDependenciesID=48f9da030714916c2d13706a1afdd45a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/TilePal/tilesetcounter_8.asset
+  importAddress: Guid(65ee0665a6139d24a8c8cadb41c34424) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_8.asset using Guid(65ee0665a6139d24a8c8cadb41c34424) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4b6792cea189a9e703aa8208bafcddb') in 0.0297333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ed635227e80d472e973500ea60985b3 DependenciesID=3c3a920ad28ffc0a6f65bc081610b328 StaticDependenciesID=9be65aeddde59c3616369de50c24299f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c784414eaeaeab0c15524ffae60dbe5b') in 0.1232846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=634705f560e072aaf25cbe249b8fc883 DependenciesID=0de1516cedcdc8d65d80f453f3969951 StaticDependenciesID=5277a29e2ca0e52a0894f812338108e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/TilePal/kitty sprites_18.asset
+  importAddress: Guid(2b2ff1a7bf214b140a41c844282241ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_18.asset using Guid(2b2ff1a7bf214b140a41c844282241ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47833469e168758a3099f6265b4b01af') in 0.0309879 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=031de2ce9a7c845f1d60653f6f4b9343 DependenciesID=ee0f00932adc37973238d60041b4017e StaticDependenciesID=c2e6f6c46ca2a52401f13385912b33b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/TilePal/kitty sprites_23.asset
+  importAddress: Guid(135cfb4f48ed5b446916a169a3b72a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_23.asset using Guid(135cfb4f48ed5b446916a169a3b72a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bcee2f71faa3e49aed0c00a6827e4c05') in 0.0312432 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e822403644ffc5ef1ef0f3a86a3174e DependenciesID=b1b110305ed2ffc10ccba1934b9bc929 StaticDependenciesID=b5d3e3fc906b496f7aed106834d87065 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/TilePal/kitty sprites_14.asset
+  importAddress: Guid(f4647ef78c744004887cbeaaa06686d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_14.asset using Guid(f4647ef78c744004887cbeaaa06686d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a60a175828906dd6c853adcfe6ee9d3a') in 0.0347197 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58b383c83971657e53e05453285af164 DependenciesID=ce8f57d1eefb9b891d4bbdfc7d41428c StaticDependenciesID=3ec6d6c828ff32a0bbe2070e545056d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TilePal/tilesetcounter_5.asset
+  importAddress: Guid(01bbf0d64517eb74db491a1343f690da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_5.asset using Guid(01bbf0d64517eb74db491a1343f690da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ea93db86a3d4ded0d45192e55f82a7ce') in 0.0480912 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43b39e215626a519492f7e27375f4cb6 DependenciesID=a1ab4507251c3e047199e20fdb7f057f StaticDependenciesID=ac0814c2e9c3937dd4b9120d200e3fc1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TilePal/2tilesetcounter_9.asset
+  importAddress: Guid(7718b9a6197abb0409263557c47f7695) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_9.asset using Guid(7718b9a6197abb0409263557c47f7695) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '39d8583dbbc2a3ec57298098df8a6193') in 0.0273346 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=49a30a9d55542fd2d1532479056d482f DependenciesID=ef12095990f933b6b9edd426d66e717c StaticDependenciesID=969a08d42982769d6af470776eb741b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/animations/WalkR.anim
+  importAddress: Guid(8a5beaa8ad097d14bbfc680716867f64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/WalkR.anim using Guid(8a5beaa8ad097d14bbfc680716867f64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9601c8e50ef85e2805e36e8b69231a9f') in 0.0291885 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6b2e9b2124692c88fd47e95940556e0 DependenciesID=8ebea277bd5bcae97f4a2913c90b77cd StaticDependenciesID=2ae9152c3022638b176a39f987611f88 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TilePal/2tilesetcounter_3.asset
+  importAddress: Guid(a44f36f57037f394bbe7e6b3b1fe7d30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_3.asset using Guid(a44f36f57037f394bbe7e6b3b1fe7d30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '886511440f244c62c452695967ac92bf') in 0.0257998 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28f0b9c61efe38feaacc7d39b96e36c0 DependenciesID=f1e7a4ba2b82ca6a2d6257f8709ada9e StaticDependenciesID=96b879ff50438fb7cbcd73a2a4827e93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TilePal/kitty sprites_12.asset
+  importAddress: Guid(32801ad9c1069074c92d87692d8548b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_12.asset using Guid(32801ad9c1069074c92d87692d8548b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '509551a23399cae7fac1e19eeab0f56d') in 0.0301793 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75c2aafcbfddcd89a6bb8d53cba12c1e DependenciesID=b29ba1fd2c2336461bedae83b3b21add StaticDependenciesID=c2d61c339857c1c521b8e210911ebd4a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/animations/Player.controller
+  importAddress: Guid(6204f1f742981cb449fab2ead57f2dd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/Player.controller using Guid(6204f1f742981cb449fab2ead57f2dd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f4d0b61f4413a3abdeb5581d60ab528') in 0.0458786 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30acdf9fa01c1619efaff94fbf981180 DependenciesID=95674762ab0ebbd240fc416a382f01e8 StaticDependenciesID=21ec51ba26200776a929ebb05374be9e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TilePal/kitty sprites_2.asset
+  importAddress: Guid(e6c09352558d27749a5a6538a53f46e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_2.asset using Guid(e6c09352558d27749a5a6538a53f46e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '403f2dbb26e6e2e0b456ba1a8b2dd64c') in 0.03028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afe9098620d2546dc7864bddb0d1dad0 DependenciesID=3ccd0c80bcb81dda76c11e34ca7050bf StaticDependenciesID=01957bfb2de2f62340438af9e56070d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TilePal/tilesetcounter_7.asset
+  importAddress: Guid(5dc491b72be190e44870e3544d656526) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_7.asset using Guid(5dc491b72be190e44870e3544d656526) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9a9c2d617e101fb16006b526c15f818e') in 0.0281146 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a67a29136970ef29fbef659c24c7f36c DependenciesID=7e3cb7edca9046086631cbac3ad3fe62 StaticDependenciesID=4db117325553cb5339b44e674646fafb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TilePal/kitty sprites_13.asset
+  importAddress: Guid(dd2642884785b3840963317d305b1576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_13.asset using Guid(dd2642884785b3840963317d305b1576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dfe2ab0f6605f8d45f07a7cfc166e734') in 0.0339068 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=508b703be17ceaa7a93121be1c5da080 DependenciesID=386cefc529a7fe522f79d0c68d3e90f8 StaticDependenciesID=5827b43f5e228f5ad051bdde203830ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TilePal/kitty sprites_5.asset
+  importAddress: Guid(f86f654cca06487418a28def39c89d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_5.asset using Guid(f86f654cca06487418a28def39c89d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '34be0f4bb079039bea500dea7fdab63e') in 0.0387627 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9322f8423bbcdabc27dfebed7c646ad1 DependenciesID=73f0650a3a6231405df91811b0ef27f1 StaticDependenciesID=69d3b0db2a3db0b1a544a0ec23b9c5c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TilePal/2tilesetcounter_1.asset
+  importAddress: Guid(88db8f4ba692b93409f0f32dbf34131d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_1.asset using Guid(88db8f4ba692b93409f0f32dbf34131d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '51ad14bf08133b5a1f3f9c8f3f53a609') in 0.037104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=932fd7deb6b92f12b16732159bec6ff4 DependenciesID=2a0f3e3ab75827bd31de168afed68398 StaticDependenciesID=837a5734889ef72a77d6db0134d22f61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/prefabs/PushBox.prefab
+  importAddress: Guid(86b71e67b6d22984bbd788f1cf4172af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/PushBox.prefab using Guid(86b71e67b6d22984bbd788f1cf4172af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b5f5d65671890e97f4c08d4b06744c21') in 0.4942566 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25b596694a2815993819f86eb5178060 DependenciesID=51ecfc10ae4d3b74cf9e77ed0c07c994 StaticDependenciesID=d7d0c3e295b43391ece908958461dd17 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TilePal/2tilesetcounter_8.asset
+  importAddress: Guid(c960590dc739f054b80b56585c1f90ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_8.asset using Guid(c960590dc739f054b80b56585c1f90ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f8ffb5b0e0d6b8600ff8f2b7fe4861ef') in 0.0300905 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be73afb6637b62878176398da1d337a2 DependenciesID=cabc3ddab9cb5ba67ec5010a42e6450a StaticDependenciesID=30a87d347195bcdefa803421db00e098 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TilePal/kitty sprites_16.asset
+  importAddress: Guid(cb1a87d01880c924d8993b72126ba42a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_16.asset using Guid(cb1a87d01880c924d8993b72126ba42a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1c0025ff3ff8f7618badf19d7199944d') in 0.0245846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6107a5f31ce22bf021bd8d997243a908 DependenciesID=96e0adaa54183df17a2ad1055a71319d StaticDependenciesID=91731788cfd9f6bea1735b11ca05bc35 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TilePal/kitty sprites_10.asset
+  importAddress: Guid(c2830589ae4783c4890c8c5d27baa4f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_10.asset using Guid(c2830589ae4783c4890c8c5d27baa4f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d76b4bb2de9909b4ebc8e0b375ebac4') in 0.0271602 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=827b14735adb4d9c3c111551ed7cacd9 DependenciesID=2160d96cd16b96a36f4cd2df4f054b0a StaticDependenciesID=fff37a91fbb121dcdd110ac0cd20ae9b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TilePal/tilesetcounter_1.asset
+  importAddress: Guid(d4b4a17bad064d34bb0f1fdea4ae2d49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_1.asset using Guid(d4b4a17bad064d34bb0f1fdea4ae2d49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5ddda7e59d028cd6084c85a53ab01af6') in 0.0243129 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b4002e6a057b973d4a905e1bf457889 DependenciesID=71ce0c38ff5d7f17da810ed47b697b6d StaticDependenciesID=008d873c43410ceb4dd36d1f7538b6a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TilePal/2tilesetcounter_2.asset
+  importAddress: Guid(575ca7a96a25e0e4ab428c01dbec71cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_2.asset using Guid(575ca7a96a25e0e4ab428c01dbec71cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f5624125c0b578325f0de69f13a7bbd') in 0.0254415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee6c21e73f2e2db20b9ef24ebee4f1c1 DependenciesID=8477d957b356323514b05e3d2e5b2dd1 StaticDependenciesID=9cdeb1eb4bb7fc152a044c3b7b926a14 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TilePal/2tilesetcounter_5.asset
+  importAddress: Guid(7d40ec5f67099c7408d1fa13b47fd163) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_5.asset using Guid(7d40ec5f67099c7408d1fa13b47fd163) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8067f33c3011739badbdb462e5efc345') in 0.0245747 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=033d3a9cbf74c904ce4b479473e027c0 DependenciesID=3719284f49fa054fddac0dbf3dd70ad9 StaticDependenciesID=2afaf09e882e513c95a50eef4d2198c5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/animations/IdleL.anim
+  importAddress: Guid(6b7df5f994bf5384390f34cb6eadb1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/IdleL.anim using Guid(6b7df5f994bf5384390f34cb6eadb1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e5d20ec74aaa569f847580fb6f54a753') in 0.0271858 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c5680d08ed7ab2bf89f7dcd14f44760 DependenciesID=c2cbde256a0d760d6bf0292313670d23 StaticDependenciesID=208d16afa1c421e5cda9d3da15d3ca46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TilePal/tilesetcounter_6.asset
+  importAddress: Guid(fdeccf570b719774baa58a43b77d3b4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_6.asset using Guid(fdeccf570b719774baa58a43b77d3b4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b49783c4720027dbd07345d15c4cdd48') in 0.0267564 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ad4ee77e60c5e94772836cd6fd8334b DependenciesID=2936f5034b509d41a15836e9bf19a074 StaticDependenciesID=636df7de5a26d06a53aef8d816fb29bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TilePal/2tilesetcounter_11.asset
+  importAddress: Guid(de4526329848a3445a93773e18ff8f18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_11.asset using Guid(de4526329848a3445a93773e18ff8f18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2bfe1eae25530c18a0b09b9aa2e54881') in 0.0293288 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72f7af4268bd28fb79d6f117cfc7aef4 DependenciesID=8316167c3606b1a02fbf46b1f4780865 StaticDependenciesID=447e3c935651870eb0dc9ac48d420967 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/TilePal/tilesetcounter_3.asset
+  importAddress: Guid(458d5f6b3363bd346a47f47ff1a1b0ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_3.asset using Guid(458d5f6b3363bd346a47f47ff1a1b0ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c53039f8462b8ff42f02f52e19d1f8a') in 0.027321 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=89f08e21ac1b021e534aa58967f82e94 DependenciesID=d35ba804d51a3ee794a1583d30fc0aea StaticDependenciesID=d4035d5460cd19a65b3e485d14587567 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/TilePal/kitty sprites_15.asset
+  importAddress: Guid(1aac67efec0bddf4bbce0f36dec910c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_15.asset using Guid(1aac67efec0bddf4bbce0f36dec910c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '007d713dc9a9adf045c7ad00ccd0de88') in 0.0274059 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db685f90bee96165fe374f8b92d2a8ac DependenciesID=b71aec6140787db9d24e38b0aa02f894 StaticDependenciesID=32c6c913e4f603c695837c7395a8a8c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
   path: Assets/TilePal/kitty sprites_22.asset
   importAddress: Guid(be3cd20d3e2233c42970455e0dd6b439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_22.asset using Guid(be3cd20d3e2233c42970455e0dd6b439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad78d212a77dc427a287ceaf5f007736') in 0.0239898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39c3eac97d140feb351436d0017553b7 DependenciesID=5ed1bf67a8c76f5fe290e45237aac6fd StaticDependenciesID=9fff89d3fdf84874a16464a15d3150df 
+Start importing Assets/TilePal/kitty sprites_22.asset using Guid(be3cd20d3e2233c42970455e0dd6b439) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '31267cc39e277b50a770c7a5a3803a0b') in 0.0265457 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c0608ffdcf063993809123aab896acd DependenciesID=5ed1bf67a8c76f5fe290e45237aac6fd StaticDependenciesID=9fff89d3fdf84874a16464a15d3150df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  importAddress: Guid(3590b91b4603b465dbb4216d601bff33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(3590b91b4603b465dbb4216d601bff33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'faf4bb1e83e0364d76c3f1ae3436de6e') in 0.2810411 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2763a81395a6b78c3cdb4f76a44ac700 DependenciesID=e2b10480a449652523c415436672557b StaticDependenciesID=553bdcc9fa0751f70e6742a8102dcabc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/TilePal/2tilesetcounter_6.asset
+  importAddress: Guid(e717225041a53fb4c84acfc247e94132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/2tilesetcounter_6.asset using Guid(e717225041a53fb4c84acfc247e94132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a9bfffacc2f234249a20fa79aa60808b') in 0.02983 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b2b634b6c6e8e3b50ce3cc6af106740 DependenciesID=03f50c2ec2cd0a7d9d793d164f684668 StaticDependenciesID=119400c4e70f186d7da624a262ee1135 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/tilesetcounter.png
+  importAddress: Guid(e6a18f730a1e0ec4ab9f2d3dc96f8829) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/tilesetcounter.png using Guid(e6a18f730a1e0ec4ab9f2d3dc96f8829) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6a3525ac5450157288e97e88ca7abca4') in 0.0459317 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44c71c890985a301a75a4ddfe84baee5 DependenciesID=e993407b8f3e4430e7e144fc58965537 StaticDependenciesID=7626843e1a07a94cea80ef55ce6cf223 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/animations/WalkD.anim
+  importAddress: Guid(f54f6a7abeaee5b48a534f61199d01ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/WalkD.anim using Guid(f54f6a7abeaee5b48a534f61199d01ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aabc701c1849880aa4e1414708b141e4') in 0.0240872 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f2010a18ad0ec06379476ae2266af44 DependenciesID=87475a0211625c50f4d1c20849a0a1b7 StaticDependenciesID=07eb01775f9ef64f32a5373174faeb30 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TilePal/kitty sprites_11.asset
+  importAddress: Guid(2011366c2aba14f41b966177107f5caa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_11.asset using Guid(2011366c2aba14f41b966177107f5caa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aa03f5a197d033fff3c108a05b293f54') in 0.0258294 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa31f38f06e6592764881638a8254026 DependenciesID=dcce157a6d2fbb2f9b7b389676452d4d StaticDependenciesID=61fc75ab310ff3eb5f7413e8e7847884 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TilePal/kitty sprites_3.asset
+  importAddress: Guid(9377602e7dfa12343a44497f7498561a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_3.asset using Guid(9377602e7dfa12343a44497f7498561a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d3e69d040b884d07ceea8de551379b6') in 0.0262091 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=780193087fc2f35d647286462a90fa7c DependenciesID=4e2afb4b7bcba7b05f130a7108f07a7a StaticDependenciesID=86c45997d3528619aa2ed7e1b6643f10 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000053 seconds.
-  path: Assets/animations/IdleR.anim
-  importAddress: Guid(618aff3753c7a654bac78158f835b6a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/IdleR.anim using Guid(618aff3753c7a654bac78158f835b6a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '399f7e8cfe851c2bcb7be6ab4c70e5eb') in 0.0567873 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d19256ebe064536a3d68aa969171511 DependenciesID=60193eaac81ab2f94881c8117d8f8d9e StaticDependenciesID=00215341e07bc3c545c68ccc8e383698 
+  path: Assets/TilePal/kitty sprites_8.asset
+  importAddress: Guid(4d8ae565b19aae140ab1361938d1b6d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_8.asset using Guid(4d8ae565b19aae140ab1361938d1b6d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6952e8f428d67a63d5d950987d2d191b') in 0.0336185 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=585b5c686908a21c02c2fa56d5a2899d DependenciesID=463c0da694b86599e2f2cd0fd83350e2 StaticDependenciesID=ac78c34ea1cbba84f514062412d928f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TilePal/tilesetcounter_4.asset
+  importAddress: Guid(5341c17729806454fa13f1f48b6b5630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_4.asset using Guid(5341c17729806454fa13f1f48b6b5630) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '29f69bcede03d714e82707f033cd4a71') in 0.0250078 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=943fd52c533cadce91c889b04ad98019 DependenciesID=4ef8eab0175ef166de8a980b8675f997 StaticDependenciesID=c01d087dda4e88eae7984b2bd7bf6f15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TilePal/kitty sprites_9.asset
+  importAddress: Guid(a864b5d6ec1bca94582c7b077c3d715c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_9.asset using Guid(a864b5d6ec1bca94582c7b077c3d715c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4c006afc139a9039399037d0fa2f280f') in 0.0264365 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=945224d71334231b84470e65bf56f157 DependenciesID=ee3d0dce760193217c245a25629e3c47 StaticDependenciesID=fa033bc508b48ee2c80dc2fbcdfa467b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/animations/IdleD.anim
+  importAddress: Guid(a73dbbfab7cbbca489bc95a0d44fae13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/IdleD.anim using Guid(a73dbbfab7cbbca489bc95a0d44fae13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '235334b55f91444a8e272205f5de4286') in 0.0507493 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1553b2d0bbf783dadbec553b21dc6c6d DependenciesID=a2577fd19aaae370f1f4a3d0e98b8167 StaticDependenciesID=2d0a4a98092c602a4d6065ce3d165b11 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000073 seconds.
-  path: Assets/TilePal/kitty sprites_4.asset
-  importAddress: Guid(3ddaa1cbed6ce05439a78570050381a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_4.asset using Guid(3ddaa1cbed6ce05439a78570050381a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a72684efd521b642211c182623e8a085') in 0.0362775 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2927fce6d4710ab58ef08395276fa22c DependenciesID=a708d4a822d57bac5a17b790a3fc5448 StaticDependenciesID=99e383b0cbd213d39ce50763e60c2a79 
+  path: Assets/TilePal/tilesetcounter_12.asset
+  importAddress: Guid(b3c9578628c2aa0418060b605d94bf98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_12.asset using Guid(b3c9578628c2aa0418060b605d94bf98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d216a18cdd69661d7f8887881ccd28b') in 0.0262661 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=568453257a9989c2684eed7819d5f4b8 DependenciesID=adf6978dd9d7a4ae990fef7739e4b133 StaticDependenciesID=7c1466c8bfb80006f698901eedd352f7 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TilePal/kitty sprites_24.asset
-  importAddress: Guid(08eb0a6104a59f64ba6d0161e44a0d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_24.asset using Guid(08eb0a6104a59f64ba6d0161e44a0d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c353a49458e5f1f2370d73fb6e6d53fc') in 0.0289253 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adc22f94c6e75cb3ffdc6cc098558f2e DependenciesID=562b75a42f6338320cf8ea25f336082a StaticDependenciesID=a23eeb9db7c25f3ad1bd3e9bf75be984 
+  Time since last request: 0.000187 seconds.
+  path: Assets/TilePal/kitty sprites_17.asset
+  importAddress: Guid(e7b5e58e6db1b63488667574d8cb174f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_17.asset using Guid(e7b5e58e6db1b63488667574d8cb174f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '694cd42e8a7ab32ff4232e446fa0e29a') in 0.0246947 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdb7098e4407e5d1db249e008d592b78 DependenciesID=afcad6f14831129987e14a852aa912d5 StaticDependenciesID=85049de92063501c03a7f383b6e95439 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/animations/WalkD.anim
-  importAddress: Guid(f54f6a7abeaee5b48a534f61199d01ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/WalkD.anim using Guid(f54f6a7abeaee5b48a534f61199d01ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b320a52c3875c5cd8fa3ce7af07c1ce2') in 0.0278545 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea975ab186c0ac688575b4b2c33a2feb DependenciesID=87475a0211625c50f4d1c20849a0a1b7 StaticDependenciesID=07eb01775f9ef64f32a5373174faeb30 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/TilePal/ColidePal.prefab
-  importAddress: Guid(87e174f36045bdc448d5ff8c550f98b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/ColidePal.prefab using Guid(87e174f36045bdc448d5ff8c550f98b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2b38a163cc3eb268e1b263be275db4da') in 0.0566306 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a17f4086cad2d3cfffde65246a8ecb6 DependenciesID=79a332472c0fe42b8726ae81851a3fb2 StaticDependenciesID=ca3a0e1c9070ec577368b07f0991d62c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/animations/WalkU.anim
-  importAddress: Guid(ee1ce2b96579e544684a29c57c2d74db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/WalkU.anim using Guid(ee1ce2b96579e544684a29c57c2d74db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '38f51a265e7e27931377071bb1102855') in 0.0248298 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06f2cf7f64491ad0d46b000d7aa01963 DependenciesID=c6c1519f26f291042271ce865bc704ef StaticDependenciesID=0e4d5c23cc32531931e5e298445f0751 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Scripts/PlayerControl.cs
-  importAddress: Guid(7935748f4099ffa41a90f9823021db44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/PlayerControl.cs using Guid(7935748f4099ffa41a90f9823021db44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3cf9b27b056032c80c03a645151d20d0') in 0.0222467 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=760b29ed9ad0295793fadc64bb14ff0e DependenciesID=2365a4df0a8cd842d3e7df422bb7ead1 StaticDependenciesID=08c1feb4fc215f523f096c95b2be26b4 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Sprites/kitty sprites.png
-  importAddress: Guid(903dd87dce92ae7438d87b701cf5232c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Sprites/kitty sprites.png using Guid(903dd87dce92ae7438d87b701cf5232c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da1b4e00703ed3f75cf4262d94c8a743') in 0.1605833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dd7bd3766b7457bc6c92aef515826da DependenciesID=df9b9f17a3e9238427ebcd403636093d StaticDependenciesID=b4d27b2fca97bb56542c582ce71465d5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/TilePal/kitty sprites_11.asset
-  importAddress: Guid(2011366c2aba14f41b966177107f5caa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_11.asset using Guid(2011366c2aba14f41b966177107f5caa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec64e3c7dfe66ca50b9b368d9911a03b') in 0.0278125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3e2c22b8421dd446815434f96949716 DependenciesID=dcce157a6d2fbb2f9b7b389676452d4d StaticDependenciesID=61fc75ab310ff3eb5f7413e8e7847884 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TilePal/kitty sprites_3.asset
-  importAddress: Guid(9377602e7dfa12343a44497f7498561a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_3.asset using Guid(9377602e7dfa12343a44497f7498561a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '737f8769268c4e5aefafcf0cd74ab21a') in 0.0226506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76975c0abe1729fcd048d9feee46f281 DependenciesID=4e2afb4b7bcba7b05f130a7108f07a7a StaticDependenciesID=86c45997d3528619aa2ed7e1b6643f10 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  importAddress: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e91ee2d0592795b410160c4034f53a3') in 0.0277282 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87db801b3caa736df4d959b5b71e2426 DependenciesID=6d4eba84f109da693acb15a051a6e805 StaticDependenciesID=7936d5848ca82055ef36cc096d4c0cfc 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000062 seconds.
-  path: Assets/TilePal/kitty sprites_18.asset
-  importAddress: Guid(2b2ff1a7bf214b140a41c844282241ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_18.asset using Guid(2b2ff1a7bf214b140a41c844282241ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d20bc0b5c9d6306b370619543ccc910') in 0.0253721 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bda145767a19cbdffe2d2067189da27 DependenciesID=ee0f00932adc37973238d60041b4017e StaticDependenciesID=c2e6f6c46ca2a52401f13385912b33b1 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TilePal/kitty sprites_23.asset
-  importAddress: Guid(135cfb4f48ed5b446916a169a3b72a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_23.asset using Guid(135cfb4f48ed5b446916a169a3b72a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2a10017914cceb583d03fc2e4c56ddc') in 0.0216892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cab41264505f7e1ab36925743d1a9aab DependenciesID=b1b110305ed2ffc10ccba1934b9bc929 StaticDependenciesID=b5d3e3fc906b496f7aed106834d87065 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/TilePal/kitty sprites_14.asset
-  importAddress: Guid(f4647ef78c744004887cbeaaa06686d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_14.asset using Guid(f4647ef78c744004887cbeaaa06686d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11df44c4d900aed61b737b10aaf5d3ca') in 0.0259703 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ff1a0d551daad77bbbabf474203d461 DependenciesID=ce8f57d1eefb9b891d4bbdfc7d41428c StaticDependenciesID=3ec6d6c828ff32a0bbe2070e545056d5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TilePal/kitty sprites_8.asset
-  importAddress: Guid(4d8ae565b19aae140ab1361938d1b6d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_8.asset using Guid(4d8ae565b19aae140ab1361938d1b6d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f9408e54048753391cfc04d0d0ae5b4') in 0.0232596 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9837ae1af6075b3b0b215aca46b9f3bd DependenciesID=463c0da694b86599e2f2cd0fd83350e2 StaticDependenciesID=ac78c34ea1cbba84f514062412d928f6 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/animations/WalkR.anim
-  importAddress: Guid(8a5beaa8ad097d14bbfc680716867f64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/WalkR.anim using Guid(8a5beaa8ad097d14bbfc680716867f64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13e2ec7fe235ca71a468b012a5ffadf4') in 0.0265228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cccec577dd28c0ff20ff5b57f7753ac5 DependenciesID=8ebea277bd5bcae97f4a2913c90b77cd StaticDependenciesID=2ae9152c3022638b176a39f987611f88 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/TilePal/kitty sprites_9.asset
-  importAddress: Guid(a864b5d6ec1bca94582c7b077c3d715c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_9.asset using Guid(a864b5d6ec1bca94582c7b077c3d715c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca3e1e7f987d44694da285a2ad2c641e') in 0.0225497 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d06cda837575c5fde8c232a9e35e820d DependenciesID=ee3d0dce760193217c245a25629e3c47 StaticDependenciesID=fa033bc508b48ee2c80dc2fbcdfa467b 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/animations/IdleD.anim
-  importAddress: Guid(a73dbbfab7cbbca489bc95a0d44fae13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/IdleD.anim using Guid(a73dbbfab7cbbca489bc95a0d44fae13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e66bfe954259a43f7cecc17b45887d95') in 0.0292062 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38b9f488c1fbe6849b49f9f551a02595 DependenciesID=a2577fd19aaae370f1f4a3d0e98b8167 StaticDependenciesID=2d0a4a98092c602a4d6065ce3d165b11 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/TilePal/kitty sprites_12.asset
-  importAddress: Guid(32801ad9c1069074c92d87692d8548b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_12.asset using Guid(32801ad9c1069074c92d87692d8548b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd25c5962931828f9f28b94d9d54e243') in 0.0241925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1ad5e4d33aa480d7fce959e1820f7df DependenciesID=b29ba1fd2c2336461bedae83b3b21add StaticDependenciesID=c2d61c339857c1c521b8e210911ebd4a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/animations/Player.controller
-  importAddress: Guid(6204f1f742981cb449fab2ead57f2dd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/Player.controller using Guid(6204f1f742981cb449fab2ead57f2dd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5dae2ff5d2aaacdcff88be02c50f40ed') in 0.0362332 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=060ac3a390514324edb0177c7b0f6e66 DependenciesID=95674762ab0ebbd240fc416a382f01e8 StaticDependenciesID=21ec51ba26200776a929ebb05374be9e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/TilePal/kitty sprites_17.asset
-  importAddress: Guid(e7b5e58e6db1b63488667574d8cb174f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_17.asset using Guid(e7b5e58e6db1b63488667574d8cb174f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '69424f47d2c52e3730acb96a65451e94') in 0.0265351 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe36b4d1099ca678b2876bb6eac1ec9d DependenciesID=afcad6f14831129987e14a852aa912d5 StaticDependenciesID=85049de92063501c03a7f383b6e95439 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TilePal/kitty sprites_2.asset
-  importAddress: Guid(e6c09352558d27749a5a6538a53f46e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_2.asset using Guid(e6c09352558d27749a5a6538a53f46e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8709b9dd88bac2d707ea3b3fbcedbd56') in 0.0218113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b89ea9a37693feb9483185c6a408075 DependenciesID=3ccd0c80bcb81dda76c11e34ca7050bf StaticDependenciesID=01957bfb2de2f62340438af9e56070d0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TilePal/kitty sprites_13.asset
-  importAddress: Guid(dd2642884785b3840963317d305b1576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_13.asset using Guid(dd2642884785b3840963317d305b1576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16db1f0e98228352d66b309b2344db9f') in 0.0261454 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19a0c3a01eafef048253c9e07c00676f DependenciesID=386cefc529a7fe522f79d0c68d3e90f8 StaticDependenciesID=5827b43f5e228f5ad051bdde203830ac 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/TilePal/kitty sprites_5.asset
-  importAddress: Guid(f86f654cca06487418a28def39c89d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_5.asset using Guid(f86f654cca06487418a28def39c89d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19c2d0f84676f7c7f3e3da48b8faafce') in 0.0248518 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45e2472a6cb817508535fc11c893e5d0 DependenciesID=73f0650a3a6231405df91811b0ef27f1 StaticDependenciesID=69d3b0db2a3db0b1a544a0ec23b9c5c1 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
   path: Assets/prefabs/PushBox.prefab
   importAddress: Guid(86b71e67b6d22984bbd788f1cf4172af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/prefabs/PushBox.prefab using Guid(86b71e67b6d22984bbd788f1cf4172af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bbd34fd1ec38f1f0f9dcaca9dc452890') in 0.0647403 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5eba1b0054e36d615ea0d9729e091316 DependenciesID=5781d8714de36ef6a79a81e57cb7c269 StaticDependenciesID=3c5792e686557f5ab7ad2105c6cd4270 
+Start importing Assets/prefabs/PushBox.prefab using Guid(86b71e67b6d22984bbd788f1cf4172af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '437c7c52d86ddc9c645a3ba7aac74148') in 0.0633642 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd800a5f306c183b241dc8b9fcb2079c DependenciesID=07dc6929330d9d3a4920737c6106cdf3 StaticDependenciesID=9420667cd90904ebc7f82047bca48db4 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000074 seconds.
+  Time since last request: 0.000097 seconds.
   path: Assets/animations/IdleU.anim
   importAddress: Guid(72ddd36bc3e77fc408988f9b69fc4f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/IdleU.anim using Guid(72ddd36bc3e77fc408988f9b69fc4f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '98df3299bca111978036a00ebbef3885') in 0.0230987 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43e0dd40902effe1617dd1615aebe4f6 DependenciesID=c61edf6b40e974c001d9a16fab1cecd3 StaticDependenciesID=439876d766a89fdb7b8f69d42e12575e 
+Start importing Assets/animations/IdleU.anim using Guid(72ddd36bc3e77fc408988f9b69fc4f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '49d5d9283f38517ce34c26e4aef15b28') in 0.0273515 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=027671355ecece7713132fb881579518 DependenciesID=c61edf6b40e974c001d9a16fab1cecd3 StaticDependenciesID=439876d766a89fdb7b8f69d42e12575e 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/TilePal/kitty sprites_16.asset
-  importAddress: Guid(cb1a87d01880c924d8993b72126ba42a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_16.asset using Guid(cb1a87d01880c924d8993b72126ba42a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f29e364b8180616ac04eccb3d4d6c46') in 0.0253508 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92a61f735419f9bab45ef27bdbf67b25 DependenciesID=96e0adaa54183df17a2ad1055a71319d StaticDependenciesID=91731788cfd9f6bea1735b11ca05bc35 
+  Time since last request: 0.000033 seconds.
+  path: Assets/TilePal/tilesetcounter_9.asset
+  importAddress: Guid(9f00fe5461bf2d143812fbb724b7391b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_9.asset using Guid(9f00fe5461bf2d143812fbb724b7391b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eb73e4688755e6442a21bc76012d88fb') in 0.0234475 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aef65f9aa472cc9cf4623b94d5b88144 DependenciesID=53015dfc746f83c0cbf5fb12f56ac5a5 StaticDependenciesID=aa8d9bb4e6447e150fc507bc455fc295 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/TilePal/kitty sprites_10.asset
-  importAddress: Guid(c2830589ae4783c4890c8c5d27baa4f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_10.asset using Guid(c2830589ae4783c4890c8c5d27baa4f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ddcfc0cba4e6ebd424f8a7cd2d53c5f') in 0.0245008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5758015b2772b67f342fe0eb2b2bd533 DependenciesID=2160d96cd16b96a36f4cd2df4f054b0a StaticDependenciesID=fff37a91fbb121dcdd110ac0cd20ae9b 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/animations/WalkL.anim
-  importAddress: Guid(15dcd783f2a79394a80c0b302904e62d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/WalkL.anim using Guid(15dcd783f2a79394a80c0b302904e62d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47121638771c95999ae5d18fb22dce0a') in 0.0240546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=244647be9c3585aa95a7c73ef0139f74 DependenciesID=8c35c432941c9ed38274d2bbd3e4d7ea StaticDependenciesID=b76c78300b85bdecfc30e3d3d5a9d57c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
+  Time since last request: 0.000037 seconds.
   path: Assets/TilePal/normPal.prefab
   importAddress: Guid(bae736f8653fb7c4fab0a40b69c4e3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/normPal.prefab using Guid(bae736f8653fb7c4fab0a40b69c4e3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55e57c1c76e26b319cf3122c2127162b') in 0.0263746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1eea3b5325af88b81038e9fc7244bb47 DependenciesID=d7b579707c4052ae6de6ac0bf6b6ba89 StaticDependenciesID=9f92ab9bf4a80b9b7135faeb657a9c9a 
+Start importing Assets/TilePal/normPal.prefab using Guid(bae736f8653fb7c4fab0a40b69c4e3af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '12c26d8aa24672467ff3e7d967763e98') in 0.0312323 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae8a54f94fac37209ed221c767606743 DependenciesID=b702b6237f606822f430723b83175fe7 StaticDependenciesID=91132da2e41be5c3638c0eb84601aed5 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/animations/IdleL.anim
-  importAddress: Guid(6b7df5f994bf5384390f34cb6eadb1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/animations/IdleL.anim using Guid(6b7df5f994bf5384390f34cb6eadb1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1c59b719d7e68c0c5c925d24089fb49a') in 0.0187726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=584f9e49feefe46116de0cd0165a0a99 DependenciesID=c2cbde256a0d760d6bf0292313670d23 StaticDependenciesID=208d16afa1c421e5cda9d3da15d3ca46 
+  Time since last request: 0.000026 seconds.
+  path: Assets/animations/WalkL.anim
+  importAddress: Guid(15dcd783f2a79394a80c0b302904e62d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/WalkL.anim using Guid(15dcd783f2a79394a80c0b302904e62d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f38a854c6b4f60af01f18823fea06e6e') in 0.0257043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7af57349689eef29f7d1c51f3bf66a17 DependenciesID=8c35c432941c9ed38274d2bbd3e4d7ea StaticDependenciesID=b76c78300b85bdecfc30e3d3d5a9d57c 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/TilePal/kitty sprites_19.asset
-  importAddress: Guid(cf690a27770768442967efb7ef524fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TilePal/kitty sprites_19.asset using Guid(cf690a27770768442967efb7ef524fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '967bc23e0e0d922af5f98bb01cd9f73b') in 0.0178265 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83d3390f022a2a379930c4fbb3103f4b DependenciesID=6c70094c509ba30e288ab538b247ca19 StaticDependenciesID=7e232b99432a9bd4662b141ea96833b5 
+  Time since last request: 0.000047 seconds.
+  path: Assets/TilePal/tilesetcounter_10.asset
+  importAddress: Guid(ffaa80f769e9181448f546808e994984) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/tilesetcounter_10.asset using Guid(ffaa80f769e9181448f546808e994984) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd11d348136d459230e23d2e8fa192a83') in 0.0261419 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c83cc2d9e91b3ea3064c8a8ef3496a4b DependenciesID=f6604f27a0cbbbee999051ded81179c1 StaticDependenciesID=da628379f95e3e1019fbbb6c7d5dee76 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.789723 seconds.
-  path: Assets/Sprites
-  importAddress: Guid(504da483f70756341a5d045326d8e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(504da483f70756341a5d045326d8e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8add1beb80b7d9af84feebbe9485b9d0') in 0.0008236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c46b124abadee559c7475d434871563 DependenciesID=c4a23d9e46583c2d83b5d8ac4d488293 StaticDependenciesID=c95a29db7db7cf21eb40c60e8bf0a0d8 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.205402 seconds.
-  path: Assets/Scripts
-  importAddress: Guid(ddd8d2c1803bc8843877274ca6b3769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(ddd8d2c1803bc8843877274ca6b3769f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5f50bad074f3e72f9d6ad315a27f876b') in 0.0008004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c19af2c5cb7146962db9e68c5b6c5c53 DependenciesID=dd5edc6ff07ed281f2f0fc3e124c30d8 StaticDependenciesID=918f6c1bf712ca5085453a0dc2f53a66 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.444445 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  importAddress: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '70be22a623134b95ac33e8a2c23bb2b9') in 0.0008545 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed762298b59bb6514954732a4a6a55a4 DependenciesID=214d5639da7076c9255c1d08abf78fdb StaticDependenciesID=73ff3d5d2e032438686a6a03a9414b7d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
-Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
-Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
-Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
-Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
-Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.76 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.983 seconds
-Domain Reload Profiling: 3776ms
-	BeginReloadAssembly (475ms)
-		DisableScriptedObjects (38ms)
-		ReleaseScriptingObjects (3ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (150ms)
-	LoadAllAssembliesAndSetupDomain (1062ms)
-		LoadAssemblies (819ms)
-		AnalyzeDomain (450ms)
-			TypeCache.Refresh (22ms)
-			BuildScriptInfoCaches (390ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (1984ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (416ms)
-			ProcessInitializeOnLoadAttributes (899ms)
-			ProcessInitializeOnLoadMethodAttributes (187ms)
-			AfterProcessingInitializeOnLoad (17ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 11.92 ms, found 5 plugins.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5665 unused Assets / (2.2 MB). Loaded Objects now: 6258.
-Memory consumption went from 115.3 MB to 113.1 MB.
-Total: 23.404200 ms (FindLiveObjects: 1.488900 ms CreateObjectMapping: 1.690800 ms MarkObjects: 13.306500 ms  DeleteObjects: 6.644700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 3366.914120 seconds.
-  path: Assets/Scripts/PlayerControl.cs
-  importAddress: Guid(7935748f4099ffa41a90f9823021db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerControl.cs using Guid(7935748f4099ffa41a90f9823021db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7867be455c0a2ab823599109e0dce271') in 0.5503415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a82586e68b09647e811316544f726eaa DependenciesID=7b89d16d1d6af947848c8cd996e81eb3 StaticDependenciesID=dfa5a0062cc97f2cad37460180cf04ce 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000051 seconds.
+  path: Assets/TilePal/kitty sprites_19.asset
+  importAddress: Guid(cf690a27770768442967efb7ef524fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TilePal/kitty sprites_19.asset using Guid(cf690a27770768442967efb7ef524fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ccb8916bf59c5deabc104dda3c0a3e4b') in 0.0250212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83b65a8d4fdfe365ad6b242333e46234 DependenciesID=6c70094c509ba30e288ab538b247ca19 StaticDependenciesID=7e232b99432a9bd4662b141ea96833b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
