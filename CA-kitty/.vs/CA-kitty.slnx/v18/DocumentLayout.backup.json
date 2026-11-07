@@ -1,13 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\D00288928\\Desktop\\CA\\CA-kitty\\",
+  "WorkspaceRootPath": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\d00288928\\desktop\\ca\\ca-kitty\\assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\cgamb\\documents\\dkit projects\\2dgamedevca1\\ca-kitty\\assets\\scripts\\boxreseter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxreseter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\cgamb\\documents\\dkit projects\\2dgamedevca1\\ca-kitty\\assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\D00288928\\OneDrive - Dundalk Institute of Technology\\2d engine\\platformer game\\Assets\\scripts\\PlayerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\cgamb\\documents\\dkit projects\\2dgamedevca1\\ca-kitty\\assets\\scripts\\boxscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\cgamb\\documents\\dkit projects\\2dgamedevca1\\ca-kitty\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\cgamb\\documents\\dkit projects\\2dgamedevca1\\ca-kitty\\assets\\scripts\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,30 +33,69 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Users\\D00288928\\OneDrive - Dundalk Institute of Technology\\2d engine\\platformer game\\Assets\\scripts\\PlayerScript.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive - Dundalk Institute of Technology\\2d engine\\platformer game\\Assets\\scripts\\PlayerScript.cs",
-              "ToolTip": "C:\\Users\\D00288928\\OneDrive - Dundalk Institute of Technology\\2d engine\\platformer game\\Assets\\scripts\\PlayerScript.cs",
-              "RelativeToolTip": "..\\..\\..\\OneDrive - Dundalk Institute of Technology\\2d engine\\platformer game\\Assets\\scripts\\PlayerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T10:36:07.308Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerControl.cs",
-              "DocumentMoniker": "C:\\Users\\D00288928\\Desktop\\CA\\CA-kitty\\Assets\\Scripts\\PlayerControl.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
-              "ToolTip": "C:\\Users\\D00288928\\Desktop\\CA\\CA-kitty\\Assets\\Scripts\\PlayerControl.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Title": "BoxReseter.cs",
+              "DocumentMoniker": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\BoxReseter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoxReseter.cs",
+              "ToolTip": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\BoxReseter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoxReseter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T10:35:13.713Z",
+              "WhenOpened": "2026-11-04T15:23:32.012Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TitleController.cs",
+              "DocumentMoniker": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\TitleController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TitleController.cs",
+              "ToolTip": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\TitleController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TitleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T15:12:55.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T15:11:15.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoxScript.cs",
+              "DocumentMoniker": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\BoxScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoxScript.cs",
+              "ToolTip": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\BoxScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoxScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T14:48:21.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerControl.cs",
+              "DocumentMoniker": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\PlayerControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
+              "ToolTip": "C:\\Users\\cgamb\\Documents\\DKIT projects\\2dgamedevCA1\\CA-kitty\\Assets\\Scripts\\PlayerControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T10:35:13.713Z"
             }
           ]
         }

@@ -31,4 +31,11 @@ public class PlayerControl : MonoBehaviour
             animator.SetBool("Move", false);
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "BoxResetter")
+        {
+            collision.gameObject.GetComponent<BoxReseter>().Hit();
+        }
+    }
 }

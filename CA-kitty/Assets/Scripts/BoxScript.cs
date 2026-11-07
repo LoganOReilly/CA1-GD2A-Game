@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class BoxScript : MonoBehaviour
 {
     private Rigidbody2D rb; 
     private Vector2 StartPosition;

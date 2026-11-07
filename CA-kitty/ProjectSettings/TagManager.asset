@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - boxDetector
+  - box
+  - BoxResetter
   layers:
   - Default
   - TransparentFX
