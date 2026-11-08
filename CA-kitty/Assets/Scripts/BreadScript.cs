@@ -26,13 +26,14 @@ public class BreadScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "breadDetector")
         {
-            rb.bodyType = RigidbodyType2D.Static;
+            rb.bodyType = RigidbodyType2D.Kinematic;
             crow.gameObject.GetComponent<BoxReseter>().Fly(rb.transform.position);
             Destroy(rb);
+            Destroy(gameObject);
         }
         if (collision.gameObject.tag == "breadDetector"&& collision.gameObject.tag == "BoxResetter")
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 }

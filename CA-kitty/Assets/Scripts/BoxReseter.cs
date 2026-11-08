@@ -39,6 +39,7 @@ public class BoxReseter : MonoBehaviour
             }
             rb.transform.position = position;
         }
+        Destroy(rb);
     }
     // Update is called once per frame
     void Update()
