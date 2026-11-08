@@ -54,6 +54,7 @@
     <Compile Include="Assets\Scripts\BoxScript.cs" />
     <Compile Include="Assets\Scripts\TitleController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\BreadScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

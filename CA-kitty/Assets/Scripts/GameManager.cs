@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     {
         if (box == 2)
         {
-            SceneManager.LoadScene("titleScreen");
+            SceneManager.LoadScene("TitleScreen");
         }
     }
 
